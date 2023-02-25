@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/21-film-database/static/css/main.282ea62b.css",
+    "main.js": "/21-film-database/static/js/main.4a4c5507.js",
+    "index.html": "/21-film-database/index.html",
+    "main.282ea62b.css.map": "/21-film-database/static/css/main.282ea62b.css.map",
+    "main.4a4c5507.js.map": "/21-film-database/static/js/main.4a4c5507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.282ea62b.css",
+    "static/js/main.4a4c5507.js"
+  ]
+}
