@@ -3,9 +3,9 @@ import ShowDetail from "./function/ShowDetail";
 
 function App() {
   return (
-    <div className="mx-64 relative">
-      <h1 className="dx-mo text-5xl font-bold my-10">DX MOVIES DATABASE</h1>
-      <input type="text" className="input-keyword border-2 w-[80%] h-10 text-xl p-2" placeholder="Search Database Movie" />
+    <div className="px relative">
+      <h1 className="text-2xl sm:text-5xl font-bold my-5 sm:my-10">DX MOVIES DATABASE</h1>
+      <input type="text" className="input-keyword border-2 w-[69%] sm:w-[80%] h-10 text-xl p-2" placeholder="Search Movie DB" />
       <button
         className="search-button text-xl bg-sky-500 text-white px-5 py-2"
         onClick={function () {
@@ -44,7 +44,7 @@ function App() {
       >
         Search
       </button>
-      <div className="movie-container mt-7 inline-grid grid-cols-3 gap-3"></div>
+      <div className="movie-container mt-7 inline-grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
       <div className="detail">
         <div className="detail-body relative"></div>
         <button

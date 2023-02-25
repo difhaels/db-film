@@ -1,7 +1,7 @@
 const ShowDetail = (m) => {
-  return `<div class="card-detail w-[700px] border-2 p-3 shadow-2xl bg-white">
+  return `<div class="card-detail w-[320px] sm:w-[700px] border-2 p-3 shadow-2xl bg-white">
             <div class="flex items-center">
-                <img src=${m.Poster} class="w-auto h-[250px]" />
+                <img src=${m.Poster} class="w-auto h-[250px] hidden sm:flex" />
                 <ul class="pl-5">
                     <li class="text-xl font-bold pb-2">
                         <h1>${m.Title} (${m.Year})</h1>

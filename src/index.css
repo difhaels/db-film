@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.px {
+  @apply px-10 sm:px-20 2xl:px-64 3xl:px-[420px];
+  /* for responsive padding x  */
+}
 .card-detail {
   position: fixed;
   top: 50%;
